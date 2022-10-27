@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Test;
 
 import java.io.File;
 
+import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
@@ -28,19 +29,34 @@ public class TestPracticeForm {
         $("[for=gender-radio-1]").click();
         $("#userNumber").setValue("+79103445241");
         $("#uploadPicture").uploadFile(new File("src/test/resources/TNhs2h00Rc0.jpeg"));
-        // $("#dateOfBirthInput").click();
-       /* $(".react-datepicker__month-select").setValue("4");
-        $(".react-datepicker__year-select").setValue("1999");
-        $(".react-datepicker__day react-datepicker__day--026").setValue("26");*/
+        $("#dateOfBirthInput").click();
+        $(".react-datepicker__month-select").selectOption("July");
+        $(".react-datepicker__year-select").selectOption("1988");
+        $(".react-datepicker__day--017:not(.react-datepicker__day--selected").click();
         $("#subjectsInput").setValue("VSU");
         $("[for=hobbies-checkbox-1]").click();
         $("[for=hobbies-checkbox-3]").click();
-        //$("input#uploadPicture").uploadFromClasspath("TNhs2h00Rc0.jpeg");
         $("#currentAddress").setValue("la la la");
         $(byText("Select State")).click();
         $(byText("NCR")).click();
         $(byText("Select City")).click();
         $(byText("Gurgaon")).click();
+        $("#submit").click();
+
+
+        $("#example-modal-sizes-title-lg").shouldHave(text("Thanks for submitting the form"));
+        $(".table-responsive").shouldHave(text("Artem Shcherbakov"),
+                text("artshcherbakov99@gmail.com"),
+                text("Male"),
+                text("+79103445241"),
+                text("17 July,1988"),
+                text("VSU"),
+                text("Sports"),
+                text("Music"),
+                text("TNhs2h00Rc0.jpeg"),
+                text("NCR"),
+                text("NCR Gurgaon"));
+        $("#closeLargeModal").click();
 
         /*$("#state").setValue("Russia");
         $("#city").setValue("Voronez");*/
