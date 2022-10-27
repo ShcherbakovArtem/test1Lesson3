@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75272282-dcc0-484b-be44-b552dcf97f5d" name="Changes" comment="FirstTest">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/CssXpathExamples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/TestPracticeForm.java" afterDir="false" />
+    <list default="true" id="75272282-dcc0-484b-be44-b552dcf97f5d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/TNhs2h00Rc0.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/TestPracticeForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/TestPracticeForm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,11 +58,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "last_opened_file_path": "/Users/artemshcherbakov/IdeaProjects/test1Lesson3/src/test/resources",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.demoqa" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+    </key>
+  </component>
   <component name="RunManager" selected="Gradle.TestPracticeForm">
     <configuration name="JUnitDemoTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -213,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666816049675</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Tets practic form some troble">
+      <created>1666860974252</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666860974252</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -230,7 +248,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test Text box case" />
     <MESSAGE value="add css x-path examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="add css x-path examples" />
+    <MESSAGE value="Tets practic form some troble" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tets practic form some troble" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
