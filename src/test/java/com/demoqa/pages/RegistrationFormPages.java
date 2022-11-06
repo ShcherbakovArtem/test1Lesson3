@@ -9,21 +9,26 @@ public class RegistrationFormPages {
         private SelenideElement firstNameInput = $("#firstName");
 
     //Actions
-    public void openPage(){
+    public RegistrationFormPages openPage(){
         open("/automation-practice-form");
         executeJavaScript("$('footer').remove()");
         executeJavaScript("$('#fixedban').remove()");
+        return new RegistrationFormPages();
     }
-    public void setFirstname(String value){
+    public RegistrationFormPages setFirstname(String value){
         firstNameInput.setValue(value);
+        return this;
     }
-    public void setLastname(String value){
+    public RegistrationFormPages setLastname(String value){
         $("#lastName").setValue(value);
+        return this;
     }
-    public void setUserEmail(String value){
+    public RegistrationFormPages setUserEmail(String value){
         $("#userEmail").setValue(value);
+        return this;
     }
-    public void setGender(){
+    public RegistrationFormPages setGender(){
         $("[for=gender-radio-1]").click();
+        return this;
     }
 }

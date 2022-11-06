@@ -22,11 +22,11 @@ public class TestPracticeFormMini {
 
     @Test
     void practiceForm() {
-        registrationFormPages.openPage();
-        registrationFormPages.setFirstname("Artem");
-        registrationFormPages.setLastname("Shcherbakov");
-        registrationFormPages.setUserEmail("artshcherbakov99@gmail.com");
-        registrationFormPages.setGender();
+        registrationFormPages.openPage()
+                .setFirstname("Artem")
+                .setLastname("Shcherbakov")
+                .setUserEmail("artshcherbakov99@gmail.com")
+                .setGender();
         $("#userNumber").setValue("9103445241");
         $("#uploadPicture").uploadFile(new File("src/test/resources/TNhs2h00Rc0.jpeg"));
         $("#dateOfBirthInput").click();
