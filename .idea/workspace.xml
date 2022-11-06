@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75272282-dcc0-484b-be44-b552dcf97f5d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/pages/RegistrationFormPages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/TestPracticeFormMini.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/CssXpathExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/CssXpathExamples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/JUnitDemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/JUnitDemoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/TestPracticeForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/TestPracticeForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/TextBoxTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/TextBoxTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/pages/RegistrationFormPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/pages/RegistrationFormPages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/TestPracticeFormMini.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/TestPracticeFormMini.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +79,7 @@
       <recent name="com.demoqa" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TestPracticeForm.practiceForm">
+  <component name="RunManager" selected="Gradle.TestPracticeFormMini.practiceForm">
     <configuration name="TestPracticeForm (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -202,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TestPracticeFormMini.practiceForm" />
+        <item itemvalue="Gradle.TestPracticeFormMini" />
         <item itemvalue="Gradle.TestPracticeForm.practiceForm" />
         <item itemvalue="Gradle.TestPracticeForm (1)" />
-        <item itemvalue="Gradle.TestPracticeFormMini" />
         <item itemvalue="Gradle.TestPracticeFormMini.practiceFormMini (1)" />
-        <item itemvalue="Gradle.TestPracticeFormMini.practiceForm" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666902755156</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add assertions for form">
+      <created>1667745517195</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667745517195</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

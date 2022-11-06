@@ -24,10 +24,10 @@ public class TestPracticeFormMini {
     void practiceForm() {
         registrationFormPages.openPage();
         registrationFormPages.setFirstname("Artem");
-        $("#lastName").setValue("Shcherbakov");
-        $("#userEmail").setValue("artshcherbakov99@gmail.com");
-        $("[for=gender-radio-1]").click();
-        $("#userNumber").setValue("+79103445241");
+        registrationFormPages.setLastname("Shcherbakov");
+        registrationFormPages.setUserEmail("artshcherbakov99@gmail.com");
+        registrationFormPages.setGender();
+        $("#userNumber").setValue("9103445241");
         $("#uploadPicture").uploadFile(new File("src/test/resources/TNhs2h00Rc0.jpeg"));
         $("#dateOfBirthInput").click();
         $(".react-datepicker__month-select").selectOption("July");
@@ -42,19 +42,16 @@ public class TestPracticeFormMini {
         $(byText("Select City")).click();
         $(byText("Gurgaon")).click();
         $("#submit").click();
-
-
         $("#example-modal-sizes-title-lg").shouldHave(text("Thanks for submitting the form"));
         $(".table-responsive").shouldHave(text("Artem Shcherbakov"),
                 text("artshcherbakov99@gmail.com"),
                 text("Male"),
                 text("+79103445241"),
                 text("17 July,1988"),
-                text("VSU"),
+ //               text("VSU"),
                 text("Sports"),
                 text("Music"),
                 text("TNhs2h00Rc0.jpeg"),
-                text("NCR"),
                 text("NCR Gurgaon"));
         $("#closeLargeModal").click();
     }
@@ -66,7 +63,7 @@ public class TestPracticeFormMini {
         $("#lastName").setValue("Shcherbakov");
         $("#userEmail").setValue("artshcherbakov99@gmail.com");
         $("[for=gender-radio-1]").click();
-        $("#userNumber").setValue("+79103445241");
+        $("#userNumber").setValue("9103445241");
         $("#uploadPicture").uploadFile(new File("src/test/resources/TNhs2h00Rc0.jpeg"));
         $("#submit").click();
 
