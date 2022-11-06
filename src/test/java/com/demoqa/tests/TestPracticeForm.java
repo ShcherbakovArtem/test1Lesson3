@@ -1,6 +1,7 @@
-package com.demoqa;
+package com.demoqa.tests;
 
 import com.codeborne.selenide.Configuration;
+import com.demoqa.pages.RegistrationFormPages;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
@@ -8,10 +9,12 @@ import java.io.File;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.open;
+import static com.codeborne.selenide.Selenide.*;
+import static com.codeborne.selenide.Selenide.executeJavaScript;
 
 public class TestPracticeForm {
+    RegistrationFormPages registrationFormPages = new RegistrationFormPages();
+
     @BeforeAll
     static void setUp(){
         Configuration.baseUrl = "https://demoqa.com";
@@ -21,13 +24,13 @@ public class TestPracticeForm {
 
     @Test
     void practiceForm(){
+        registrationFormPages.openPage();
         String name ="Artem";
-        open("/automation-practice-form");
         $("#firstName").setValue(name);
         $("#lastName").setValue("Shcherbakov");
         $("#userEmail").setValue("artshcherbakov99@gmail.com");
         $("[for=gender-radio-1]").click();
-        $("#userNumber").setValue("+79103445241");
+        $("#userNumber").setValue("9103445241");
         $("#uploadPicture").uploadFile(new File("src/test/resources/TNhs2h00Rc0.jpeg"));
         $("#dateOfBirthInput").click();
         $(".react-datepicker__month-select").selectOption("July");
@@ -57,15 +60,6 @@ public class TestPracticeForm {
                 text("NCR"),
                 text("NCR Gurgaon"));
         $("#closeLargeModal").click();
-
-        /*$("#state").setValue("Russia");
-        $("#city").setValue("Voronez");*/
-
-
-
-
-
-
 
     }
 }

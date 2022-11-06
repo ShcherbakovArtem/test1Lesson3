@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75272282-dcc0-484b-be44-b552dcf97f5d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/pages/RegistrationFormPages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/TestPracticeFormMini.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/TestPracticeForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/TestPracticeForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/CssXpathExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/CssXpathExamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/JUnitDemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/JUnitDemoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/TestPracticeForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/TestPracticeForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/TextBoxTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/TextBoxTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +65,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "/Users/artemshcherbakov/IdeaProjects/test1Lesson3/src/test/resources",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -73,9 +80,12 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.demoqa" />
+    </key>
   </component>
   <component name="RunManager" selected="Gradle.TestPracticeForm.practiceForm">
-    <configuration name="JUnitDemoTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestPracticeForm (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -88,7 +98,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.demoqa.JUnitDemoTest&quot;" />
+            <option value="&quot;com.demoqa.tests.TestPracticeForm&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -98,7 +108,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="JUnitDemoTest.SimpleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestPracticeFormMini" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -111,7 +121,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.demoqa.JUnitDemoTest.SimpleTest&quot;" />
+            <option value="&quot;com.demoqa.tests.TestPracticeFormMini&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -121,7 +131,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TestPracticeForm" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestPracticeFormMini.practiceForm" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -134,7 +144,30 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.demoqa.TestPracticeForm&quot;" />
+            <option value="&quot;com.demoqa.tests.TestPracticeFormMini.practiceForm&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestPracticeFormMini.practiceFormMini (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.demoqa.tests.TestPracticeFormMini.practiceFormMini&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -157,30 +190,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.demoqa.TestPracticeForm.practiceForm&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="TextBoxTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.demoqa.TextBoxTests&quot;" />
+            <option value="&quot;com.demoqa.tests.TestPracticeForm.practiceForm&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -193,10 +203,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.TestPracticeForm.practiceForm" />
-        <item itemvalue="Gradle.TestPracticeForm" />
-        <item itemvalue="Gradle.TextBoxTests" />
-        <item itemvalue="Gradle.JUnitDemoTest" />
-        <item itemvalue="Gradle.JUnitDemoTest.SimpleTest" />
+        <item itemvalue="Gradle.TestPracticeForm (1)" />
+        <item itemvalue="Gradle.TestPracticeFormMini" />
+        <item itemvalue="Gradle.TestPracticeFormMini.practiceFormMini (1)" />
+        <item itemvalue="Gradle.TestPracticeFormMini.practiceForm" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666865064138</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add assertions for form">
+      <created>1666902755156</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666902755156</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -255,7 +272,8 @@
     <MESSAGE value="Test Text box case" />
     <MESSAGE value="add css x-path examples" />
     <MESSAGE value="Tets practic form some troble" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tets practic form some troble" />
+    <MESSAGE value="Add assertions for form" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add assertions for form" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
