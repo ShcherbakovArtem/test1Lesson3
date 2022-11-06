@@ -7,7 +7,6 @@
     <list default="true" id="75272282-dcc0-484b-be44-b552dcf97f5d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/pages/RegistrationFormPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/pages/RegistrationFormPages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/TestPracticeFormMini.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/TestPracticeFormMini.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +78,7 @@
       <recent name="com.demoqa" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TestPracticeFormMini.practiceForm">
+  <component name="RunManager" selected="Gradle.TestPracticeFormMini">
     <configuration name="TestPracticeForm (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -197,8 +196,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.TestPracticeFormMini.practiceForm" />
         <item itemvalue="Gradle.TestPracticeFormMini" />
+        <item itemvalue="Gradle.TestPracticeFormMini.practiceForm" />
         <item itemvalue="Gradle.TestPracticeForm.practiceForm" />
         <item itemvalue="Gradle.TestPracticeForm (1)" />
         <item itemvalue="Gradle.TestPracticeFormMini.practiceFormMini (1)" />
@@ -256,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667745517195</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="PageObject training">
+      <created>1667746852276</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667746852276</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -275,7 +281,8 @@
     <MESSAGE value="add css x-path examples" />
     <MESSAGE value="Tets practic form some troble" />
     <MESSAGE value="Add assertions for form" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add assertions for form" />
+    <MESSAGE value="PageObject training" />
+    <option name="LAST_COMMIT_MESSAGE" value="PageObject training" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

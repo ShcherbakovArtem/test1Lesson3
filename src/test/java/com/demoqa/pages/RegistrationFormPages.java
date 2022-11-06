@@ -6,7 +6,7 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class RegistrationFormPages {
     //Elements
-        SelenideElement firstNameInput = $("#firstName");
+        private SelenideElement firstNameInput = $("#firstName");
 
     //Actions
     public void openPage(){
